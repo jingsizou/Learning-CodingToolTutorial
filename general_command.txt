@@ -5,7 +5,8 @@ Create a file: touch [file_name]
 [Git]
 Create a repository: git init
 Add a file to repository: git add [file_name]
+Add multiple files to repository: git add .
 Commit to the repository: git commit -m "explanation"
 Check status: git status
 Check modified content: git diff
-
+Check log: git log
