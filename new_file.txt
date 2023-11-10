@@ -1,0 +1,2 @@
+Create a directory: mkdir [folder_name]
+Create a file: touch [file_name]
