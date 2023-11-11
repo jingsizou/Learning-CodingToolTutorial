@@ -13,7 +13,10 @@ Check modified content(current working area): git diff
 Check modified content(staging area - repository): git diff --cached
 Check modified content(local - repository): git diff HEAD
 Check log: git log
+Check log in one line: git log --oneline
 Modify the file in staging area: git reset [file_name]
+Checkout to other node: git checkout [commit_number]
+Checkout to master: git checkout master
 [Three area]: Working directory - staging area - repository
 Working directory: current working stage
 Staging area: Keep the modified file saved
