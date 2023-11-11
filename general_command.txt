@@ -8,6 +8,7 @@ Add a file to repository: git add [file_name]
 Add multiple files to repository: git add .
 Commit to the repository: git commit -m "explanation"
 Check status: git status
+Check status of files: git status -m
 Check modified content(current working area): git diff
 Check modified content(staging area - repository): git diff --cached
 Check modified content(local - repository): git diff HEAD
