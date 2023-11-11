@@ -12,4 +12,3 @@ Check modified content(current working area): git diff
 Check modified content(staging area - repository): git diff --cached
 Check modified content(local - repository): git diff HEAD
 Check log: git log
-This is a test line
