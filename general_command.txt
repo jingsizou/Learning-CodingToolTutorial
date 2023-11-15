@@ -35,6 +35,7 @@ Switch to dev branch: git checkout [branch_name]
 Create a new branch and switch to it: git checkout -b [dev_name]
 Merge dev to master: switch to master, git merge dev
 Keep branch pattem: git merge -no-ff -m "Merge Info" [dev_name]
+If conflict happens: Solve conflict, commit
 
 
 
