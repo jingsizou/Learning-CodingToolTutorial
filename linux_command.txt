@@ -1,0 +1,5 @@
+[Linux]
+$ mkdir <folder_name> # create a directory
+$ touch <file_name> # create a file
+$ rm -rf <file_name> # delete a file 
+$ rm -rf ./* # delete all files
