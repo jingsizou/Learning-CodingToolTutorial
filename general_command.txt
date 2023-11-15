@@ -37,6 +37,10 @@ Merge dev to master: switch to master, git merge dev
 Keep branch pattem: git merge -no-ff -m "Merge Info" [dev_name]
 If conflict happens: Solve conflict, commit
 
+[Git Tag]
+Tag the newest commit in current branch: git tag [tag_name]
+Tag previous commit: git tag [tag_name] [commit_id]
+
 
 
 
