@@ -25,6 +25,7 @@ Checkout to master: git checkout master
 [Three area]: Working directory - staging area - repository
 Working directory: current working stage
 Staging area: Keep the modified file saved
+Why need staging area? Sometime only submit part of local files to repository
 Repository: develop branch
 
 [Git branch]
