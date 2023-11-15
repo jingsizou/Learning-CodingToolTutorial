@@ -7,13 +7,17 @@ Create a repository: git init
 Add a file to repository: git add [file_name]
 Add multiple files to repository: git add .
 Commit to the repository: git commit -m "explanation"
+Add and commit to repository: git commit -am "explanation"
 Check status: git status
 Check status of files: git status -m
 Check modified content(current working area): git diff
 Check modified content(staging area - repository): git diff --cached
 Check modified content(local - repository): git diff HEAD
+
+[Git check log]
 Check log: git log
 Check log in one line: git log --oneline
+Check log in graph: git log --oneline --graph
 Modify the file in staging area: git reset [file_name]
 Checkout to other node: git checkout [commit_number]
 Checkout to master: git checkout master
@@ -28,3 +32,9 @@ Check branch: git branch
 Create a branch: git branch dev
 Switch to dev branch: git checkout [branch_name]
 Create a new branch and switch to it: git checkout -b [dev_name]
+Merge dev to master: switch to master, git merge dev
+Keep branch pattem: git merge -no-ff -m "Merge Info" [dev_name]
+
+
+
+
