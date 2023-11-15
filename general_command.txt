@@ -17,7 +17,14 @@ Check log in one line: git log --oneline
 Modify the file in staging area: git reset [file_name]
 Checkout to other node: git checkout [commit_number]
 Checkout to master: git checkout master
+
 [Three area]: Working directory - staging area - repository
 Working directory: current working stage
 Staging area: Keep the modified file saved
 Repository: develop branch
+
+[Git branch]
+Check branch: git branch
+Create a branch: git branch dev
+Switch to dev branch: git checkout [branch_name]
+Create a new branch and switch to it: git checkout -b [dev_name]
