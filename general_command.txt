@@ -41,6 +41,11 @@ If conflict happens: Solve conflict, commit
 Tag the newest commit in current branch: git tag [tag_name]
 Tag previous commit: git tag [tag_name] [commit_id]
 
+[Git Update remote]
+Push local repo to remote:
+git remote add origin [remote_repo_name]
+git push -u origin [branch_name]
+
 
 
 
