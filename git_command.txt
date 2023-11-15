@@ -1,0 +1,41 @@
+[Git Commit]
+$ git init # create a repository 
+$ git add <file_name> # add a file to repository
+$ git add . # add multiple files to a repository
+$ git commit -m "explanation" # commit to a repository
+$ git commit -am "explanation" # add and commit to a repository
+$ git status # check status
+$ git diff # check modified content(current working area - last commit)
+$ git diff --cached # check modified content(staging area - last commit)
+$ git diff HEAD # check modified content(local(working + staging area) - last commit)
+$ git log # check log
+$ git log --oneline # check log in one line
+$ git log --oneline --graph # check log in graph
+$ git reset <file_name> # modify the file in staging area
+$ git checkout <commit_number> # checkout to another branch
+$ git checkout master # checkout to master
+$ git rm <file_name> # Remove a file
+
+[Git Three areas]
+Working directory - Staging area - Repository
+Working directory: current working stage
+Staging area: Keep the modified file saved
+Why need staging area? Sometime only submit part of local files to repository
+Repository: develop branch
+
+[Git Branch]
+$ git branch # check branch
+$ git branch <branch_name> # create a branch
+$ git checkout <branch_name> # switch to another branch
+$ git checkout -b <branch_name> # create a new branch and switch to it
+$ git merge <subbranch_name> # merge subbranch to master
+$ git merge -no-ff -m "Merge Info" <subbranch_name> # keep branch patterm
+If conflict happens: Solve conflict, commit
+$ git tag <tag_name> # tag the newest commit in current branch
+$ git tag <tag_name> <commit_id> # tag previous commit
+
+[Git Remote]
+$ git remote add <remote_repo_name> <remote_address> # Add remote repo
+$ git push -u <remote_repo_name> <branch_name> # push local repo to remote
+$ rm -rf ./* # delete repo
+$ git clone <remote_address> # clone a remote repo
