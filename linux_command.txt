@@ -1,5 +1,45 @@
-[Linux]
-$ mkdir <folder_name> # create a directory
-$ touch <file_name> # create a file
-$ rm -rf <file_name> # delete a file 
+[Linux Basic Command]
+$ pwd # show current location
+$ cd <absolute_path> # change directory
+$ cd .. # return to last directory
+$ cd - # return to previous directory
+$ cd ~ # go to home
+$ ls # list files and folders in current location
+$ ls -l # list detailed files and folders (in long)
+$ ls -a # list all files including hidden files
+$ ls -al # combination: list all files in details
+$ man ls # learn a certain command
+$ mkdir <folder_name/subfolder_name> # make a directory
+$ rmdir <folder_name/subfolder_name> # remove an empty directory
+$ rm -r <folder_name> # recursively remove a directory
+$ rm -rf <file_name> # delete a file permanently
 $ rm -rf ./* # delete all files
+$ touch <file_name> # create a file
+$ rm <file_name1> <file_name2> # remove a file
+$ mv <file_name> <folder_name> # move a file to a folder
+$ mv <old_filename> <new_filename> # rename a file
+$ cp <file_name> <folder_name> # copy file to folder
+$ cp -R <folder_name> <folder_name> # copy folder to folder
+
+[Linux Edit File]
+$ nano <file_name> # edit file, 'Ctrl + S' save, 'Ctrl + X' exit
+$ cat <file_name> # See a file (catenate)
+$ cat <file_name1> > <file_name2> # Overwrite content in file1 to file2
+$ cat <file_name1> >> <file_name2> # Add content in file2 at the end of file2
+
+[Vim]
+$ vim # open vim
+$ vim <file_name> # use vim to edit file
+Three mode: 
+(1) Normal Mode
+(2) Insert Mode: 
+    a. enter: i
+    b. exit: Esc
+(3) Command Mode
+
+
+
+
+
+
+
